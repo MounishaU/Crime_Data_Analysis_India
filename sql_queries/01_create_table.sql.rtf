@@ -1,0 +1,35 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red22\green26\blue30;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c11373\c13333\c15686;\cssrgb\c100000\c100000\c100000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl300\partightenfactor0
+
+\f0\fs26 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 -- SQL to define the schema for the crime_data table.\
+\pard\pardeftab720\sl300\partightenfactor0
+\cf2 -- Data for this table was imported from 'fully_cleaned_crime_data.csv'\
+-- using the 'File > Import > Table from CSV file' feature in DB Browser for SQLite.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\
+CREATE TABLE \'93crime_data\'94 (\
+	"Report Number"	INTEGER,\
+	"Date Reported"	TEXT,\
+	"Date of Occurrence"	TEXT,\
+	"Time of Occurrence"	TEXT,\
+	"City"	TEXT,\
+	"Crime Code"	INTEGER,\
+	"Crime Description"	TEXT,\
+	"Victim Age"	INTEGER,\
+	"Victim Gender"	TEXT,\
+	"Weapon Used"	TEXT,\
+	"Crime Domain"	TEXT,\
+	"Police Deployed"	INTEGER,\
+	"Case Closed"	TEXT,\
+	"Date Case Closed"	TEXT\
+);\
+\
+}
